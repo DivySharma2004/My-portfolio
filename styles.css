@@ -1,0 +1,100 @@
+/* General styling for the whole website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    background: linear-gradient(135deg, #3a0ca3 0%, #000048 100%);
+    height: 900px;
+}
+
+h1 {
+    color: #333;
+}
+
+#projects .project {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#welcome h1, p {
+    color: #fff;
+}
+
+.project p {
+    color: black;
+}
+
+#projects h1 {
+    color: #fff;
+}
+
+#about-me h1 {
+    color: #fff;
+}
+
+#welcome img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+   
+}
+
+#welcome {
+    text-align: center;
+}
+
+#projects #a {
+    color: #fff;
+    background-color: #008000;
+}
+
+#projects #b {
+    color: #fff;
+    background: linear-gradient(to right,#ff2d01,#b5dc00,#24f1e1);
+}
+
+#project p:hover {
+    cursor: pointer;
+    color: #3a0ca3;
+}
